@@ -1,0 +1,23 @@
+
+/* Define o fundo verde escuro e a cor do texto/links na navbar */
+.navbar {
+    background-color: #006400 !important; /* Um tom de verde escuro */
+}
+
+/* Define a cor da fonte (texto e links) para branco */
+.navbar a {
+    color: white !important;
+}
+
+
+/* Garante que o texto de links também fique branco ao passar o mouse (hover) */
+.navbar a:hover {
+    background-color: #006400 !important;
+    color: #ccc !important; /* Um cinza claro para o hover */
+}
+
+/* Garante que o texto principal (título do site) também fique branco */
+.navbar-brand {
+    background-color: #006400 !important;
+    color: white !important;
+}
