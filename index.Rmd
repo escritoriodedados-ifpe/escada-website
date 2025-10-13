@@ -1,0 +1,24 @@
+---
+title: "Escritório de dados IFPE"
+
+output: 
+  html_document:
+    css: styles.css
+
+---   
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+## Objetivo
+
+O Escritório de Ddaos é uma unidade estratégica vinculada à Pró-reitoria de Integração e Desenvolvimento Institucional do IFPE, dedicada à gestão e uso estratégico de dados institucionais para subsidiar a tomada de decisões e promover a transparência e a inovação no âmbito do Instituto.
+
+```{r message=FALSE, warning=FALSE,fig.align='center'}
+    knitr::include_graphics("imagens/inicial.jpg")
+
+```   
+

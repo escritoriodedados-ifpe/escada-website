@@ -1,0 +1,47 @@
+---
+title: "Projetos"
+
+output: html_document
+    
+---
+
+```{r setup, include=FALSE, echo=TRUE}
+```
+
+
+<style>
+.info-tile {
+border: 1px solid #ccc;
+padding: 15px;
+margin-bottom: 10px;
+background-color: #f9f9f9;
+border-radius: 5px;
+flex: 0; /* Para que as caixas ocupem espaço igual */
+}
+.info-tiles-container {
+display: block;
+gap: 10px;
+margin-bottom: 20px;
+}
+</style>
+
+<div class="info-tiles-container">
+<div class="info-tile">
+
+## Catálogo de conjuntos de dados
+  - ainda em andamento inicialmente foi catalogados os dados de origem do IFPE em números
+
+<iframe width="800" height="450" src="https://lookerstudio.google.com/embed/reporting/cdc8ce8d-a7ef-41be-a6d8-0f4093ad4322/page/oBraF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+</div>
+<p></p>
+<div class="info-tile">
+<h3>Destaque 2</h3>
+<p>Outro dado relevante.</p>
+
+</div>
+<div class="info-tile">
+<h3>Destaque 3</h3>
+<p>Mais detalhes do conteúdo.</p>
+
+</div>
+</div>

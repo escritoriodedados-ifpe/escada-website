@@ -1,0 +1,44 @@
+
+/* Define o fundo verde escuro e a cor do texto/links na navbar */
+.navbar {
+    background-color: #006400 !important; /* Um tom de verde escuro */
+}
+
+/* Define a cor da fonte (texto e links) para branco */
+.navbar a {
+    color: white !important;
+}
+
+
+/* Garante que o texto de links também fique branco ao passar o mouse (hover) */
+.navbar a:hover {
+    background-color: #006400 !important;
+    color: #ccc !important;/* Um cinza claro para o hover */
+
+}
+
+/* Garante que o texto principal (título do site) também fique branco */
+.navbar-brand {
+    background-color: #006400 !important;
+    color: white !important;
+    background-image: url('imagens/logo.png'); /* ⬅️ Ajuste o caminho da sua logo aqui */
+    background-repeat: no-repeat;
+    background-position: right 20px top 10px; /* Posição (ex: canto superior direito) */
+    background-size: 60px; /* Ajuste o tamanho da logo */
+    padding-right: 10px; 
+}
+
+/* custom_navbar.css */
+
+/* Define uma altura mínima para o contêiner principal da navbar */
+.navbar {
+  min-height: 120px; /* Altere este valor para a altura desejada (ex: 80px, 100px) */
+}
+
+/* Garante que o conteúdo e os links sejam alinhados corretamente na nova altura */
+.navbar-brand,
+.navbar-nav > li > a {
+  padding-top: 100px; /* Ajuste o padding superior */
+  padding-bottom: 5px; /* Ajuste o padding inferior */
+  height: 120px; /* Deve corresponder ao min-height do .navbar, ou pode ser um pouco menos */
+}
